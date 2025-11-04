@@ -1,17 +1,51 @@
-# React + Vite
+# 💼 Kalam Ahmmed's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with **React + Vite**, showcasing my skills, projects, and contact information.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Responsive and modern UI  
+- Sections: Home, About, Projects, Contact  
+- Fast loading with Vite  
+- Fully hosted on Vercel  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Vite  
+- **Styling:** CSS / TailwindCSS (if used)  
+- **Deployment:** Vercel  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# kalamahmmed-portfolio
+## ⚙️ Setup Instructions
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/kalamahmmed007/Portfolio.git
+
+cd Portfolio
+npm install
+npm run dev
+
+🌐 Live Demo
+Check the live website here: https://portfolio-nd8u.vercel.app/
+<img width="1839" height="813" alt="image" src="https://github.com/user-attachments/assets/887a69b6-cb12-4554-80f8-6e4b4905da25" />
+
+Future Improvements
+
+Add project filtering or category tabs
+
+Add dark/light mode toggle
+
+Integrate a functional contact form with email service
+
+Improve performance and SEO
+
+📫 Contact
+
+Email: 0057kalamahmmed@gmail.com
+
+LinkedIn: linkedin.com/in/kalamahmmed
+
+GitHub: https://github.com/kalamahmmed007

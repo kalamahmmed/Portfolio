@@ -85,7 +85,7 @@ const Hero = () => {
             </p>
 
             {/* CTA Button and Social Links */}
-            <div className="d-flex flex-wrap gap-3 align-items-center" >
+            <div className="d-flex flex-wrap gap-3 align-items-center">
               <button
                 className="btn btn-success"
                 style={{
@@ -99,32 +99,89 @@ const Hero = () => {
                   transition: 'all 0.5s ease-out',
                 }}
               >
-                <i className="bi bi-chat " id></i>
-
-                <span>Let's Talk →</span>
+                <i className="bi bi-chat"></i>
+                <span className="ms-2">Let's Talk →</span>
               </button>
 
+              {/* Social Links */}
               <div className="d-flex gap-3">
-                {['github', 'linkedin', 'facebook', 'envelope'].map((icon, idx) => (
-                  <a
-                    key={idx}
-                    href="#"
-                    className="btn btn-outline-secondary rounded-circle"
-                    style={{
-                      width: '45px',
-                      height: '45px',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      padding: 0,
-                      transition: 'transform 0.3s ease',
-                    }}
-                    onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(1.2)')}
-                    onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1)')}
-                  >
-                    <i className={`bi bi-${icon}`}></i>
-                  </a>
-                ))}
+                <a
+                  href="https://github.com/kalamahmmed007/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline-secondary rounded-circle"
+                  style={{
+                    width: '45px',
+                    height: '45px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    padding: 0,
+                    transition: 'transform 0.3s ease',
+                  }}
+                  onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(1.2)')}
+                  onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1)')}
+                >
+                  <i className="bi bi-github"></i>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/kalam-ahmmed/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline-secondary rounded-circle"
+                  style={{
+                    width: '45px',
+                    height: '45px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    padding: 0,
+                    transition: 'transform 0.3s ease',
+                  }}
+                  onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(1.2)')}
+                  onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1)')}
+                >
+                  <i className="bi bi-linkedin"></i>
+                </a>
+
+                <a
+                  href="https://www.facebook.com/erean.kalam/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline-secondary rounded-circle"
+                  style={{
+                    width: '45px',
+                    height: '45px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    padding: 0,
+                    transition: 'transform 0.3s ease',
+                  }}
+                  onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(1.2)')}
+                  onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1)')}
+                >
+                  <i className="bi bi-facebook"></i>
+                </a>
+
+                <a
+                  href="mailto:kalam@example.com"
+                  className="btn btn-outline-secondary rounded-circle"
+                  style={{
+                    width: '45px',
+                    height: '45px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    padding: 0,
+                    transition: 'transform 0.3s ease',
+                  }}
+                  onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(1.2)')}
+                  onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1)')}
+                >
+                  <i className="bi bi-envelope"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -194,7 +251,7 @@ const Hero = () => {
               <h6 className="mb-3 text-success">✦ My Tech Stacks</h6>
               <p style={{ color: '#9ca3af', fontSize: '0.9rem', margin: 0 }}>
                 Expert in MERN stack and modern web technologies including React, Next.js, Node.js,
-                MongoDB.
+                and MongoDB.
               </p>
             </div>
           </div>

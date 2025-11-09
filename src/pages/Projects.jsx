@@ -32,7 +32,7 @@ const SuccessWorkSection = () => {
             category: 'Web Application',
             title: 'Portfolio Website',
             image: PortfolioImg,
-            link: 'https://portfolio-nd8u.vercel.app/'
+            link: 'https://portfolio-j7cg.vercel.app/'
         }
     ];
 
